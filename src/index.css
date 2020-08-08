@@ -11,3 +11,21 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div.jumbotron {
+  background-color: #f4f7c5;
+  font-family: 'Alex Brush', cursive;
+  color: #ea907a;
+  text-align: center;
+}
+
+div.jumbotron p.text {
+  font-size: 45pt;
+}
+
+div.jumbotron p.date {
+  font-size: 30pt;
+}
+
+
+
