@@ -1,16 +1,13 @@
 import React from 'react';
-import Jumbotron from 'react-bootstrap/Jumbotron'
-
-import '../../App'
-import { Container } from 'react-bootstrap';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 function Jumbo() {
     return (
-        <div className="jumbotron">
-            <p className="text">Nischal Weds Aparna</p>
-            <p className="date">March 8th 2020</p>
-            <p className="text">Mangalore</p>
-        </div>
+        <Jumbotron id="jumbo">
+            <p id="jumbotron-text">Nischal <span id="weds">Weds</span> Aparna</p>
+            <p id="jumbotron-date">March 8<sup>th</sup> 2020</p>
+            <p id="jumbotron-location">Mangalore</p>
+        </Jumbotron>
     );
 }
 
